@@ -1,0 +1,7 @@
+# COVID19-Detection-Using-ChestXray
+COVID-19 (coronavirus) declared as a global pandemic by the World Health Organization (WHO) has infected millions of people worldwide. The accelerated spread of the disease has put stress on healthcare systems and has affected our daily life. Some safety measures are provided, such as keeping social distance and wearing a mask can help curb transmission and save lives. In this report, one of the papers is referred for reproducing the results. Along, with that due to the limitation of publicly available dataset addition is made to the existing report by adding augmented data. The model is able to achieved the required results i.e. 93.5% accuracy
+
+
+In this experiment, I have used publicly available CT scan images from one of github respository for COVID19 chest xray (https://github.com/ieee8023/covid-chestxray-dataset). These images are from different countries around the world like Italy, China, Australia, Israel, and Taiwan, and some other countries. There are in all 181 chest-Xray from this dataset. These images are labeled as COVID positive by expert radiologists. Apart from the CT scan, we have a CSV file consisting of patient information like age, gender, survival, and location. 
+
+The health chest-Xray is obtained from another famous research work by the NIH clinical center. There are around 10,000 images in the dataset. In this research work, I have randomly selected 364 images.
